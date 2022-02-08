@@ -12,8 +12,7 @@ class MnistStrategy(Enum):
     LENET1 = 1
     LENET4 = 2
     LENET5 = 3
-    ALEXNET = 4
-    MCDNN = 5
+    MCDNN  = 4
 
     def getStrategy(MODEL):
         if MODEL == MnistStrategy.LINEAR:
